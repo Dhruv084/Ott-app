@@ -1,0 +1,33 @@
+flutter:
+  # The following is a quick startup guide for those new to using flutter_launcher_icons
+  # which is used to generate iOS and Android launcher icons.
+  #
+  # https://github.com/fluttercommunity/flutter_launcher_icons/wiki
+  #
+  # It requires the following changes to this file to show your updated launcher icon on app
+  # restarts. The icon path is relative to this directory.
+  image_path: "assets/launcher_icon.png"
+  #
+  # For more details, see https://docs.flutter.dev/deployment/ios-app-store
+
+  # The following defines the version and build number for your application.
+  # A version number is three numbers separated by dots, plus an optional build
+  # number separated by a +.
+  # Both the version and the builder number may be overridden in flutter
+  # build by specifying --build-name and --build-number, respectively.
+  # In Android, build-name is used as versionName while build-number used as versionCode.
+  # Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+  # In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+  # Read more about iOS versioning at
+  # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+  # In Windows, build-name is used as the major, minor, and patch parts
+  # of the product and file versions while build-number is ignored.
+  # On Windows the major, minor, and patch parts of the product and file versions (CFBundleShortVersionString)
+  # Read more about Windows versioning at https://learn.microsoft.com/en-us/windows/win32/msi/product-version
+  version: 1.0.0+1
+
+  # Below is the section for the Android-specific app settings,
+  # by default, the minimum API level is set to 21.
+  # You can provide the following values:
+  # m1, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20, m21
+  minimum_sdk_version: 21
